@@ -41,10 +41,25 @@ var bookingapp = new Vue({
       this.checkBookingDateOfEvent();
       this.checkBookingTimeOfEvent();
       this.checkBookingLocationOfEvent();
-      if(this.bookingOrgFailed || this.bookingContactNameFailed || this.bookingContactPhoneNumberFailed || this.bookingContactEmailFailed || this.bookingNameOfEventFailed || this.bookingDateOfEventFailed || this.bookingTimeOfEventFailed || this.bookingLocationOfEventFailed){
+
+      if (this.bookingOrgFailed
+          || this.bookingContactNameFailed
+          || this.bookingContactPhoneNumberFailed
+          || this.bookingContactEmailFailed
+          || this.bookingNameOfEventFailed
+          || this.bookingDateOfEventFailed
+          || this.bookingTimeOfEventFailed
+          || this.bookingLocationOfEventFailed){
         //idk something maybe?
+        /**
+         * Add something for failed
+         * 
+         * Error message to tell them to go back and change stuff?
+         * Might be good to have somewhere that saves a record though
+         * (i.e. saves their failed request to somewhere else)
+         */
       }
-      else{
+      else {
         this.isLoading = true;
         var self = this;
         axios.post('https://gleeclub.gatech.edu/cgi-bin/api/gig_requests', {

@@ -33,7 +33,7 @@
 	  <div class="navbar-menu" v-bind:class="{'is-active': burgerIsActive}">
 	    <div class="navbar-start">
 			<a class="navbar-item" href="about.html">About</a>
-			<a class="navbar-item" href="videos.html">Videos</a>
+			<!-- <a class="navbar-item" href="videos.html">Videos</a> -->
 			<a class="navbar-item" href="events.html">Events</a>
 			<a class="navbar-item" href="booking.html">Booking</a>
 			<a class="navbar-item" href="contact.html">Contact</a>
@@ -59,8 +59,9 @@
 				<p class="subtitle">The Georgia Tech Glee Club formed as an all-male group in 1906, making it the oldest student organization on campus. Composed of graduate and undergraduate students, the members of the group represent all of the Institute's colleges. In recent years, the Glee Club has performed at prestigious events both at Georgia Tech and throughout the Atlanta community and has traveled to locations such as New York City, Hawaii, and the UK, spreading what it means to be a Ramblin' Wreck and a helluva engineer!</p>
 			</div>
 		</section>
-		<section class="section">
-			<div class="container">
+		<!-- <section class="section"> -->
+			<!-- Future events need to be configed -->
+			<!-- <div class="container">
 				<h1 class="title">Upcoming Events</h1>
 				<p class="subtitle">Come see us live at our next event!</p>
 					<div v-if="thereAreEvents" class="columns">
@@ -72,16 +73,16 @@
 								<p><i class="fas fa-clock"></i> {{humanTime(item.time)}}</p>
 								<p class="location"><i class="fas fa-map-marker-alt"></i> {{item.location}}</p>
 								<p>{{item.summary}}</p>
-							</div>
+							</div> -->
 							<!--<p>
 								<a target="_blank" :href="'https://gleeclub.gatech.edu/buzz/api.php?action=calendar&event='+item.id">Put that in your calendar and smoke it.</a>
 							</p><br/>-->
-						</div>			     
+						<!-- </div>			     
 			      </div>
 			      <p>See all the other events <a href="events.html">here</a>.</p>
 			      <p v-else>We don't have anything coming up, but check back in a few weeks and maybe we will!</p>
 			</div>
-		</section>
+		</section> -->
 		<section class="section">
 			<div class="container">
 				<h1 class="title">Be a Groupie</h1>
@@ -99,9 +100,9 @@
 			<div class="container">
 				<h1 class="title">Give Us Money via:</h1>
 				<ul>
-					<li><a target="_blank" href="https://store.cdbaby.com/cd/georgiatechgleeclub2">CD Baby</a></li>
-					<li><a target="_blank" href="https://itunes.apple.com/us/artist/georgia-tech-glee-club/488368538">iTunes</a></li>
-					<li>You can also come to a concert and buy a <span style="text-decoration:line-through;">beer</span> milk stein!</li>
+					<!-- Commented out since not sure if we sell CDs still -->
+					<!-- <li><a target="_blank" href="https://store.cdbaby.com/cd/georgiatechgleeclub2">CD Baby</a></li> -->
+					<li>You can donate or come to a concert and buy a <span style="text-decoration:line-through;">beer</span> milk stein!</li>
 					<li><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q865PH2EAUEK2&source=url">Donate on PayPal</a></li>
 				</ul>
 			</div>
@@ -110,11 +111,13 @@
 			<div class="container">
 				<h1 class="title">Like and Subscribe</h1>
 				<ul>
+					<!-- Links to our other media outlets -->
 					<li><i class="fab fa-twitter"></i> <a target="_blank" href="http://www.twitter.com/GTglee">Twitter</a></li>
 					<li><i class="fab fa-youtube"></i> <a target="_blank" href="http://www.youtube.com/user/gtgleeclub?feature=creators_cornier-http%3A//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_white.png">YouTube</a></li>
 					<li><i class="fab fa-facebook-square"></i> <a target="_blank" href="https://www.facebook.com/GTgleeclub/">Facebook</a></li>
-					<li><i class="fab fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/gtglee/">Instagram</a></li>
+					<li><i class="fab fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/gtgleeclub/">Instagram</a></li>
 					<li><i class="fab fa-spotify"></i> <a target="_blank" href="https://open.spotify.com/artist/5Tz9oXCro8bRGSvfZmZyAY?si=jw3Tp_0fTgu4_G0vyMAC_A">Spotify</a></li>
+					<li><i class="fab fa-itunes"></i><a target="_blank" href="https://itunes.apple.com/us/artist/georgia-tech-glee-club/488368538">iTunes</a></li>
 				</ul>
 			</div>
 		</section>
