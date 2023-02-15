@@ -1,5 +1,2 @@
-.vs/external/config/applicationhost.config
-.vs/slnx.sqlite
-.vs/external/FileContentIndex/6d7faccd-caa7-4159-a8b7-a447766ab8e0.vsidx
-.vs/external/FileContentIndex/read.lock
-.vs/external/v17/.wsuo
+/node_modules/
+/dist/
