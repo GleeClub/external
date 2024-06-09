@@ -14,7 +14,7 @@
     <br />
     <a
       class="button is-primary is-outlined"
-      href="mailto:gleeclub_officers@lists.gatech.edu"
+      href="mailto:gleeclubofficers@groups.gatech.edu"
     >
       <span class="icon is-small">
         <i class="far fa-envelope" />
