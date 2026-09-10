@@ -157,7 +157,7 @@
           <p>
             Oopsie did you eff it up? No worries, just
             <a
-              href="mailto:gleeclub_officers@lists.gatech.edu?subject={request.name} Follow Up"
+              href="mailto:gleeclubofficers@groups.gatech.edu?subject={request.name} Follow Up"
             >
               email the officers
             </a>
