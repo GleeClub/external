@@ -67,7 +67,7 @@
                 <br />
                 <p>
                   <a target="_blank" href={selectedEvent.invite}>
-                    Put that in your calendar and smoke it.
+                    Add event to your calendar.
                   </a>
                 </p>
               </div>
